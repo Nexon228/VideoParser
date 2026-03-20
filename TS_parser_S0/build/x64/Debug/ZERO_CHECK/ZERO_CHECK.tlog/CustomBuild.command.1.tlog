@@ -1,0 +1,10 @@
+^C:\USERS\ALANR\DESKTOP\PARSER\TS_PARSER_S0\BUILD\CMAKEFILES\195B3E7B36FE3A66C86753F1CAAA8579\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/alanr/Desktop/parser/TS_parser_S0 -BC:/Users/alanr/Desktop/parser/TS_parser_S0/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/alanr/Desktop/parser/TS_parser_S0/build/TS-PARSER.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

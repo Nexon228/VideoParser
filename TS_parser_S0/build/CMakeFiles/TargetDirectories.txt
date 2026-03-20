@@ -1,0 +1,3 @@
+C:/Users/alanr/Desktop/parser/TS_parser_S0/build/CMakeFiles/TS-PARSER.dir
+C:/Users/alanr/Desktop/parser/TS_parser_S0/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/alanr/Desktop/parser/TS_parser_S0/build/CMakeFiles/ZERO_CHECK.dir
